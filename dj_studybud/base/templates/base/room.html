@@ -1,0 +1,7 @@
+<!-- extends dziedziczy z main.html, a tam jest zawarty navbar - wtedy na każdje podstronie będzie widoczny navbar -->
+{% extends 'main.html' %}
+
+<!-- block content mówi django że pomiędzy jest zawarta treść strony -->
+{% block content %}
+    <h1>{{room.name}}</h1>
+{% endblock %}
